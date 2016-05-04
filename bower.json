@@ -1,0 +1,30 @@
+{
+  "name": "arkano-angular",
+  "description": "Workshop",
+  "main": "index.js",
+  "authors": [
+    "Rekeyea"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Arkano",
+    "Angular"
+  ],
+  "homepage": "https://github.com/Rekeyea/AngularJSArkano",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-ui-router": "^0.2.18",
+    "angular-translate-loader-static-files": "^2.11.0",
+    "angular-translate-storage-local": "^2.11.0",
+    "angular-translate-handler-log": "^2.11.0",
+    "angular-dynamic-locale": "^0.1.32",
+    "angular-i18n": "^1.5.5"
+  }
+}

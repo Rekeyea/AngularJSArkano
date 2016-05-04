@@ -1,0 +1,23 @@
+{
+  "name": "arkano-angular",
+  "version": "1.0.0",
+  "description": "Workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rekeyea/AngularJSArkano.git"
+  },
+  "keywords": [
+    "Arkano",
+    "Angular"
+  ],
+  "author": "Rekeyea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rekeyea/AngularJSArkano/issues"
+  },
+  "homepage": "https://github.com/Rekeyea/AngularJSArkano#readme"
+}
