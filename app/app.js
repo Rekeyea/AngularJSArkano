@@ -1,4 +1,5 @@
 angular.module("arkano_angular",[
     "pascalprecht.translate",
-    "tmh.dynamicLocale"
+    "tmh.dynamicLocale",
+    "ui.router"
 ]);
