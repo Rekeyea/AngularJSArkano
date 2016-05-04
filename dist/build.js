@@ -1,0 +1,1 @@
+angular.module("arkano_angular",["pascalprecht.translate","tmh.dynamicLocale"]),angular.module("arkano_angular").config([]).run([]);
