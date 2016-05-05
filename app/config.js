@@ -3,7 +3,8 @@ angular.module("arkano_angular")
         "$locationProvider",
         "$stateProvider",
         "$urlRouterProvider",
-        function($locationProvider,$stateProvider,$urlRouterProvider){
+        "$httpProvider",
+        function($locationProvider,$stateProvider,$urlRouterProvider,$httpProvider){
             $locationProvider.hashPrefix("!").html5Mode(true);
             $stateProvider
                 .state("Home",{
@@ -18,6 +19,7 @@ angular.module("arkano_angular")
                     controller:"authorizeCtrl",
                     controllerAs:"authorize"
                 });
+            //$httpProvider.interceptors.push('AuthInterceptor');
         }
     ])
     .run([
