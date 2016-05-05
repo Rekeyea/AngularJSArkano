@@ -10,7 +10,7 @@ const angular_dir = "app/**/*.js";
 function jsMin() {
     return gulp.src(angular_dir)
         .pipe(gulp_concat("build.js"))
-        .pipe(gp_uglify())
+        //.pipe(gp_uglify())
         .pipe(gulp.dest("dist"));
 }
 

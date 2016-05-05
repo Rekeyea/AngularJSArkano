@@ -1,8 +1,23 @@
 angular.module("arkano_angular")
     .config([
         "$locationProvider",
-        function($locationProvider){
-            // $locationProvider.hashPrefix("!").html5Mode(true);
+        "$stateProvider",
+        "$urlRouterProvider",
+        function($locationProvider,$stateProvider,$urlRouterProvider){
+            $locationProvider.hashPrefix("!").html5Mode(true);
+            $stateProvider
+                .state("Home",{
+                    url:"/",
+                    templateUrl:"app/src/home/home.tpl.html",
+                    controller:"homeCtrl",
+                    controllerAs:"home"
+                })
+                .state("Authorize",{
+                    url:"/authorize",
+                    templateUrl:"app/src/authorize/authorize.tpl.html",
+                    controller:"authorizeCtrl",
+                    controllerAs:"authorize"
+                });
         }
     ])
     .run([
